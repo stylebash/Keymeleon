@@ -2,7 +2,7 @@
 
 Remap shortcut keys relative to the open foreground window program. Using the power of AHK v2.x
 
-## Example usage ##
+## Example usages ##
 - A shortcut such as : `ctrl+u`
     - If ***Firefox*** is open in the foreground and you hit that, it does a `scroll up`
     - But if ***Vscode*** is open in the foreground instead and you hit the same shortcut key, it `opens the sidebar (ctrl+b)`.
