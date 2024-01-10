@@ -10,8 +10,8 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ### Version 1 ###
   1. Open keymeleon_config.ahk
   2. Modify the hotkeys array according to your needs.
-- The values you include here are what you wish to be remapped on any program.
-- Any unset key will work as is / by default.
+    - The values you include here are what you wish to be remapped on any program.
+    - Any unset key will work as is / by default.
 
   3. Open keymeleon_programFunctions_module.ahk
   4. Copy-paste the example function: `template_function`.
