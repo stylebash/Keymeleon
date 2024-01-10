@@ -15,7 +15,7 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 
   3. Open keymeleon_programFunctions_module.ahk
   4. Copy-paste the example function: `template_function`.
-    1. Change the functions' name into `<programName>_function`
+    1. Change the functions' name into `<programName>_function`.
       + example: `pmotion_function`
       + refer to AHK Window Spy `ahk_exe` Window property
       + note: the program name is case sensitive.
@@ -48,12 +48,12 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ## To do ##
 
 ### Cheatsheets module ###
-    - (V2) make users able to load cheat sheets online
+    - [ ] (V2) make users able to load cheat sheets online
 ### V2 ###
-    - Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
+    - [ ] Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
 ### V3 ###
-    - Users won't have to touch any code.
-    - All remapping config is via GUI
-    - Specific Keymeleon configuration might still need some code hacking. We'll see, we'll get there when we get there.
+    - [ ] Users won't have to touch any code.
+    - [ ] All remapping config is via GUI
+    - [ ] Specific Keymeleon configuration might still need some code hacking. We'll see, we'll get there when we get there.
 ### License ###
-    - Might need to update it later, as i understand more about it.
+    - [ ] Might need to update it later, as i understand more about it.
