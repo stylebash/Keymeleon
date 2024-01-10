@@ -2,6 +2,14 @@
 
 Remap shortcut keys relative to the open foreground window program. Using the power of AHK v2.x
 
+## Example usage ##
+- A shortcut such as : `ctrl+u`
+    - If ***Firefox*** is open in the foreground and you hit that, it does a `scroll up`
+    - But if ***Vscode*** is open in the foreground instead and you hit the same shortcut key, it `opens the sidebar (ctrl+b)`.
+- While Crocotile is open in the foreground, `WASD` keys:
+    - `Work as per default` while `caps lock` is ***off***.
+    - `Work like` the `arrow keys` while `caps lock` is ***on***.
+
 ## Requirements ##
 - An installation of AHK v2.x on your PC.
 
