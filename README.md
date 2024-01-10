@@ -10,15 +10,15 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ### Version 1 ###
   1. Open keymeleon_config.ahk
   2. Modify the hotkeys array according to your needs.
-    -- The values you include here are what you wish to be remapped on any program.
-    -- Any unset key will work as is / by default.
+    * The values you include here are what you wish to be remapped on any program.
+    * Any unset key will work as is / by default.
 
   3. Open keymeleon_programFunctions_module.ahk
   4. Copy-paste the example function: `template_function`.
     1. Change the functions' name into `<programName>_function`
-      - example: `pmotion_function`
-      - refer to AHK Window Spy `ahk_exe` Window property
-      - note: the program name is case sensitive.
+      + example: `pmotion_function`
+      + refer to AHK Window Spy `ahk_exe` Window property
+      + note: the program name is case sensitive.
     2. Modify the contents of the `switch` block.
       1. the `case` value is the hotkey/shortcut key you want to remap for that specific program.
       2. within the afforementioned `case`, is a code block of its contents.
