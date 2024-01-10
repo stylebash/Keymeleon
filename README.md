@@ -8,25 +8,19 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ## Configuration ##
 
 ### Version 1 ###
-  1. Open keymeleon_config.ahk
-  2. Modify the hotkeys array according to your needs.
-  
+1. Open keymeleon_config.ahk
+2. Modify the hotkeys array according to your needs.
     - The values you include here are what you wish to be remapped on any program.
     - Any unset key will work as is / by default.
-
-  3. Open keymeleon_programFunctions_module.ahk
-  4. Copy-paste the example function: `template_function`.
-
-    1. Change the functions' name into `<programName>_function`.
-
-      - example: `pmotion_function`
-      - refer to AHK Window Spy `ahk_exe` Window property
-      - note: the program name is case sensitive.
-
-    2. Modify the contents of the `switch` block.
-    
-      1. the `case` value is the hotkey/shortcut key you want to remap for that specific program.
-      2. within the afforementioned `case`, is a code block of its contents.
+3. Open keymeleon_programFunctions_module.ahk
+4. Copy-paste the example function: `template_function`.
+5. Change the functions' name into `<programName>_function`.
+    - example: `pmotion_function`
+    - refer to AHK Window Spy `ahk_exe` Window property
+    - note: the program name is case sensitive.
+6. Modify the contents of the `switch` block.
+    1. the `case` value is the hotkey/shortcut key you want to remap for that specific program.
+    2. within the afforementioned `case`, is a code block of its contents.
         - The value after `Send`, inside the double quotes (`""`) is the hotkey/shortcut key you want to remap to.
 
 
@@ -50,15 +44,16 @@ Remap shortcut keys relative to the open foreground window program. Using the po
     1. will toggle enabling/disabling any hotkey/shortcut keys you've setup.
     2. this is silent and has no popup window.
 
-## To do ##
+## ~ To do ~ ##
 
-### Cheatsheets module ###
-    -[] (V2) make users able to load cheat sheets online
-### V2 ###
-    -[] Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
-### V3 ###
-    - [] Users won't have to touch any code.
-    - [] All remapping config is via GUI
-    - [] Specific Keymeleon configuration might still need some code hacking. We'll see, we'll get there when we get there.
-### License ###
-    - [] Might need to update it later, as i understand more about it.
+#### Cheatsheets module ####
+- (V2) make users able to load cheat sheets online
+#### V2 ####
+- Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
+#### V3 ####
+- Users won't have to touch any code.
+- All remapping config is via GUI
+- Specific Keymeleon configuration might still need some code hacking. We'll see, we'll get there when we get there.
+
+#### License ####
+- Might need to update it later, as i understand more about it.
