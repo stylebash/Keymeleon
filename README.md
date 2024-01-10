@@ -35,13 +35,15 @@ Remap shortcut keys relative to the open foreground window program. Using the po
     - note: The GUI does not auto resize the image you've made when you toggle it to pop up. So set its size according to your displays resolution and/or your preferences.
     - make sure you've set your images' file extension the same as the value you've set for `cheatSheetDirectory`
 
+
 ## How to Use ##
-    - Double click on / select and hit enter `keymeleon.ahk` from your file folder/windows explorer.
-    - Hit `Control+Alt+Windows+x` to close the script
-    - Hit `Control+Alt+Windows+r` to restart/reload the script
-    - Hit `Control+Alt+Windows+s` to suspend the script
-        1. will toggle enabling/disabling any hotkey/shortcut keys you've setup.
-        2. this is silent and has no popup window.
+1. Double click on / select and hit enter `keymeleon.ahk` from your file folder/windows explorer to run the script.
+- Hit `Control+Alt+Windows+x` to close the script
+- Hit `Control+Alt+Windows+r` to restart/reload the script
+- Hit `Control+Alt+Windows+s` to suspend the script
+    1. will toggle enabling/disabling any hotkey/shortcut keys you've setup.
+    2. this is silent and has no popup window.
+
 ## To do ##
 
 ### Cheatsheets module ###
