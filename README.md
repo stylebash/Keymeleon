@@ -5,7 +5,7 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ## Requirements ##
 - An installation of AHK v2.x on your PC.
 
-## How to Use ##
+## Configuration ##
 
 ### Version 1 ###
   1. Open keymeleon_config.ahk
@@ -23,17 +23,25 @@ Remap shortcut keys relative to the open foreground window program. Using the po
       2. within the afforementioned `case`, is a code block of its contents.
         - The value after `Send`, inside the double quotes (`""`) is the hotkey/shortcut key you want to remap to.
 
-### Cheatsheets module ###
-    1. Open keymeleon_config.ahk
-    2. Set value for the `cheatSheetDirectory`variable
-    3. Set value for the `cheatSheetFileExtension`variable
-    4. Leave `CHEAT_SHEET_IMAGE_TOGGLE` alone. This is a constant.
-    5. In the same directory as **keymeleon.ahk**; Create a folder/directory with the same name as the value you've set for `cheatSheetDirectory`
-    6. Create an image with the same name as the program you want a cheat sheet for.
-        - refer to the naming convention in the Version 1 instructions above
-        - note: The GUI does not auto resize the image you've made when you toggle it to pop up. So set its size according to your displays resolution and/or your preferences.
-        - make sure you've set your images' file extension the same as the value you've set for `cheatSheetDirectory`
 
+### Cheatsheets module ###
+1. Open keymeleon_config.ahk
+2. Set value for the `cheatSheetDirectory`variable
+3. Set value for the `cheatSheetFileExtension`variable
+4. Leave `CHEAT_SHEET_IMAGE_TOGGLE` alone. This is a constant.
+5. In the same directory as **keymeleon.ahk**; Create a folder/directory with the same name as the value you've set for `cheatSheetDirectory`
+6. Create an image with the same name as the program you want a cheat sheet for.
+    - refer to the naming convention in the Version 1 instructions above
+    - note: The GUI does not auto resize the image you've made when you toggle it to pop up. So set its size according to your displays resolution and/or your preferences.
+    - make sure you've set your images' file extension the same as the value you've set for `cheatSheetDirectory`
+
+## How to Use ##
+    - Double click on / select and hit enter `keymeleon.ahk` from your file folder/windows explorer.
+    - Hit `Control+Alt+Windows+x` to close the script
+    - Hit `Control+Alt+Windows+r` to restart/reload the script
+    - Hit `Control+Alt+Windows+s` to suspend the script
+        1. will toggle enabling/disabling any hotkey/shortcut keys you've setup.
+        2. this is silent and has no popup window.
 ## To do ##
 
 ### Cheatsheets module ###
