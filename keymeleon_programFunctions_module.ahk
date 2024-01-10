@@ -212,3 +212,84 @@ crocotile3d_function(runningHotKey, activeWindow)
 
     return
 }
+
+
+; Affine
+AFFiNE_function(runningHotKey, activeWindow)
+{
+    thisFunctionIdentity := StrReplace(A_ThisFunc, "_function", "")
+
+    if activateCallingFunction(thisFunctionIdentity, activeWindow) == true
+    {
+        switch runningHotKey{
+            case "F13":
+                Send "{WheelUp}"
+            case "F17":
+                Send "{WheelDown}"
+            case "F18":
+                Send "+{WheelUp}"
+            case "F19":
+                Send "+{WheelDown}"
+
+            case "F14":
+                Send "^["
+            case "F15":
+                Send "^]"
+
+            case "F16":
+                Send "{Home}"
+            case "F20":
+                Send "{End}"
+            case "F21":
+                Send "^z"
+            case "^!+5":
+                Send "^w"
+            case "^!+6":
+                Send "^+t"
+            default:
+                Send runningHotKey
+        }
+    }
+
+    return
+}
+
+; Anytype
+Anytype_function(runningHotKey, activeWindow)
+{
+    thisFunctionIdentity := StrReplace(A_ThisFunc, "_function", "")
+
+    if activateCallingFunction(thisFunctionIdentity, activeWindow) == true
+    {
+        switch runningHotKey{
+            case "F13":
+                Send "{WheelUp}"
+            case "F17":
+                Send "{WheelDown}"
+            case "F18":
+                Send "+{WheelUp}"
+            case "F19":
+                Send "+{WheelDown}"
+
+            case "F14":
+                Send "!{Left}"
+            case "F15":
+                Send "!{Right}"
+
+            case "F16":
+                Send "{Home}"
+            case "F20":
+                Send "{End}"
+            case "F21":
+                Send "^z"
+            case "^!+5":
+                Send "^w"
+            case "^!+6":
+                Send "^+t"
+            default:
+                Send runningHotKey
+        }
+    }
+
+    return
+}

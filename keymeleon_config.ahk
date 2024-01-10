@@ -51,13 +51,14 @@ hotkeys :=
 
 ; Setup your cheat sheet parameters here.
 ; Can be left blank if you don't want to setup your cheat sheets just yet. Like so below:
-; cheatSheetDirectory := ''
-; cheatSheetFileExtension := ''
-; cheatSheetImageToggle := 0 ; hide cheat sheet GUI
+cheatSheetDirectory := ''
+cheatSheetFileExtension := ''
+cheatSheetImageToggle := 0 ; hide cheat sheet GUI
 
 ; otherwise, create the folder 'cheatsheets' in the same directory as this script and add your image files there.
-cheatSheetDirectory := '\cheatsheets\'
-cheatSheetFileExtension := '.png'
-CHEAT_SHEET_IMAGE_TOGGLE := 0
+; Example usage below
+; cheatSheetDirectory := '\cheatsheets\'
+; cheatSheetFileExtension := '.png'
+; CHEAT_SHEET_IMAGE_TOGGLE := 0
 
 /** End: CheatSheet config */
