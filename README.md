@@ -19,7 +19,7 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 1. Open keymeleon_config.ahk
 2. Modify the hotkeys array according to your needs.
     - The values you include here are what you wish to be remapped on any program.
-    - Any unset key will work as is / by default.
+- Any unset key will work as is / by default.
 3. Open keymeleon_programFunctions_module.ahk
 4. Copy-paste the example function: `template_function`.
 5. Change the functions' name into `<programName>_function`.
@@ -57,6 +57,7 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 #### Cheatsheets module ####
 - (V2) make users able to load cheat sheets online
 #### V2 ####
+- Allow a default keymap, triggered outside program functions and if unset in the current active window.
 - Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
 #### V3 ####
 - Users won't have to touch any code.
