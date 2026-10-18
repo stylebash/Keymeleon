@@ -53,16 +53,16 @@ Remap shortcut keys relative to the open foreground window program. Using the po
     2. this is silent and has no popup window.
 
 ## ~ To do ~ ##
-
-#### Cheatsheets module ####
-- (V2) make users able to load cheat sheets online
+- Redoing these. I've got a clearer path for this now.
 #### V2 ####
-- Allow a default keymap, triggered outside program functions and if unset in the current active window.
-- Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
+- all app context and their corresponding remaps are loaded from a json file. No more tweaking any .ahk file.
+  - Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
 #### V3 ####
 - Users won't have to touch any code.
 - All remapping config is via GUI
-- Specific Keymeleon configuration might still need some code hacking. We'll see, we'll get there when we get there.
+#### V4 ####
+- Have the (optional) ability to load all user specific data on an online database of their choosing
+- (Don't know how to do this yet) make users able to load cheat sheets online
 
 #### License ####
 - Might need to update it later, as i understand more about it.
