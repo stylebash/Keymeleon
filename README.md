@@ -55,11 +55,13 @@ Remap shortcut keys relative to the open foreground window program. Using the po
 ## ~ To do ~ ##
 - Redoing these. I've got a clearer path for this now.
 #### V2 ####
-- all app context and their corresponding remaps are loaded from a json file. No more tweaking any .ahk file.
+- all app context and their corresponding remaps are loaded from a .json file. No more tweaking any .ahk file.
   - Users won't have to config anything in **keymeleon_programFunctions_module.ahk**
 #### V3 ####
-- Users won't have to touch any code.
+- Users won't have to touch any code or type in a .json file anymore.
 - All remapping config is via GUI
+- Most likely with Rust
+- Users don't have to have AHK installed, too.
 #### V4 ####
 - Have the (optional) ability to load all user specific data on an online database of their choosing
 - (Don't know how to do this yet) make users able to load cheat sheets online
